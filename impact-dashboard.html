@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Illustrative examples showing how contributions can support learning at Vidya Shakti Niwas.">
+<title>How Contributions Make a Difference | Vidya Shakti Niwas</title>
+<style>
+:root{--green:#174c3c;--green2:#24634e;--mint:#eaf2e7;--cream:#fcfaf5;--ink:#172d26;--muted:#5f716b;--line:#dce6dc;--white:#fff;--gold:#d7a84a;--blue:#5b8190}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}.topbar{border-bottom:1px solid var(--line);background:rgba(252,250,245,.94);position:sticky;top:0;z-index:5;backdrop-filter:blur(10px)}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:750;color:var(--green)}.mark{width:38px;height:38px;border-radius:13px;background:var(--green);color:white;display:grid;place-items:center;font-size:13px;letter-spacing:1px}.navlinks{display:flex;align-items:center;gap:22px}.navlinks a{text-decoration:none;font-size:14px;color:var(--muted)}.navlinks a:hover{color:var(--green)}.back{border:1px solid var(--line);border-radius:999px;padding:9px 14px!important;background:#fff}
+.hero{padding:64px 0 36px}.eyebrow{text-transform:uppercase;letter-spacing:2px;color:var(--green2);font-size:11px;font-weight:800;margin:0 0 12px}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:42px;align-items:center}.hero h1{font-size:clamp(36px,5vw,60px);letter-spacing:-2.5px;line-height:1.05;margin:0 0 18px;max-width:720px}.hero h1 em{font-style:normal;color:var(--green2)}.lead{font-size:18px;color:var(--muted);max-width:690px;margin:0 0 22px}.notice{border:1px solid #e7d8ad;background:#fff9e9;border-radius:14px;padding:14px 16px;font-size:13px;color:#67562c}.notice strong{display:block;color:#57471f;margin-bottom:3px}.hero-art{background:var(--mint);border-radius:28px;padding:25px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}.art-kicker{font-size:12px;letter-spacing:1.5px;font-weight:800;color:var(--green2)}.art-quote{font-size:29px;font-weight:700;line-height:1.2;max-width:340px;letter-spacing:-.8px}.art-bottom{display:flex;gap:9px;flex-wrap:wrap}.pill{background:#fff;border:1px solid #dce8d9;padding:7px 11px;border-radius:99px;font-size:12px;color:var(--green)}
+.section{padding:28px 0 48px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:22px}.section h2{font-size:clamp(25px,3vw,36px);letter-spacing:-1px;line-height:1.15;margin:0}.section-head p{max-width:520px;color:var(--muted);margin:0}.filters{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0 24px}.filter{border:1px solid var(--line);border-radius:999px;padding:9px 15px;background:#fff;color:var(--muted);font:inherit;font-size:13px;cursor:pointer}.filter.active,.filter:hover{background:var(--green);color:#fff;border-color:var(--green)}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.metric{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px;min-height:145px}.metric .icon{width:37px;height:37px;display:grid;place-items:center;border-radius:12px;background:var(--mint);font-size:18px;margin-bottom:14px}.metric .number{font-size:30px;font-weight:800;letter-spacing:-1px;color:var(--green);line-height:1.1}.metric .label{font-weight:650;margin-top:7px}.metric small{color:var(--muted);display:block;margin-top:5px;font-size:12px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.scenario{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}.scenario-top{padding:21px 21px 16px;background:linear-gradient(135deg,#eef5eb,#fbfaf5);border-bottom:1px solid var(--line)}.scenario-top .tag{font-size:10px;letter-spacing:1.5px;font-weight:800;color:var(--green2);text-transform:uppercase}.scenario h3{font-size:21px;line-height:1.2;margin:9px 0}.scenario-top p{font-size:13px;color:var(--muted);margin:0}.scenario-body{padding:20px;display:flex;flex-direction:column;gap:16px;flex:1}.scenario-body p{margin:0;color:var(--muted);font-size:14px}.scenario-body strong{color:var(--ink)}.impact-row{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;font-size:13px}.impact-row b{color:var(--green);font-size:15px}.bar{height:7px;background:#edf1ec;border-radius:99px;overflow:hidden;margin-top:6px}.bar span{display:block;height:100%;width:var(--w);background:var(--green2);border-radius:99px}.scenario-foot{padding:13px 20px;border-top:1px solid var(--line);font-size:11px;color:var(--muted);background:#fdfdfb}
+.activity-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.activity{border:1px solid var(--line);background:white;border-radius:18px;padding:22px}.activity h3{margin:0 0 8px;font-size:19px}.activity p{margin:0;color:var(--muted);font-size:14px}.activity ul{padding-left:18px;color:var(--muted);font-size:14px;margin:12px 0 0}.activity li{margin:5px 0}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;counter-reset:step}.step{border:1px solid var(--line);background:#fff;border-radius:16px;padding:18px;counter-increment:step}.step:before{content:"0" counter(step);display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:var(--mint);color:var(--green);font-size:12px;font-weight:800;margin-bottom:14px}.step h3{font-size:15px;margin:0 0 7px}.step p{font-size:13px;color:var(--muted);margin:0}
+.cta{background:var(--green);color:#fff;border-radius:24px;padding:32px;display:flex;justify-content:space-between;align-items:center;gap:22px}.cta h2{margin:0 0 8px;font-size:30px;line-height:1.15}.cta p{margin:0;color:#dce9e0;max-width:650px}.cta a{white-space:nowrap;background:#fff;color:var(--green);border-radius:999px;padding:12px 18px;text-decoration:none;font-weight:750;font-size:14px}.foot{padding:30px 0 42px;color:var(--muted);font-size:12px}.footline{border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;gap:20px}
+.hidden{display:none!important}
+@media(max-width:850px){.hero-grid{grid-template-columns:1fr}.hero-art{min-height:220px}.metrics{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr 1fr}.steps{grid-template-columns:repeat(2,1fr)}.section-head{align-items:start;flex-direction:column}.navlinks{gap:12px}.navlinks a:not(.back){display:none}}
+@media(max-width:580px){.wrap{width:min(100% - 28px,1180px)}.hero{padding-top:42px}.hero h1{letter-spacing:-1.5px}.lead{font-size:16px}.metrics,.cards,.activity-grid,.steps{grid-template-columns:1fr}.metric{min-height:auto}.cta{align-items:start;flex-direction:column;padding:25px}.cta h2{font-size:26px}.footline{flex-direction:column}.nav{min-height:62px}}
+
+.estimate-note{margin:0;color:var(--muted);font-size:13px;max-width:690px}
+.planner{display:grid;grid-template-columns:.85fr 1.15fr;gap:18px}
+.planner-input,.planner-result{border:1px solid var(--line);border-radius:22px;padding:25px;background:#fff}
+.planner-input label{display:block;font-weight:750;font-size:14px;margin:0 0 9px}
+.amount-field{display:flex;align-items:center;border:1px solid #cddbd0;border-radius:14px;padding:0 14px;margin-bottom:8px;background:#fcfdf9}
+.amount-field span{font-size:24px;font-weight:750;color:var(--green);margin-right:9px}
+.amount-field input{width:100%;min-width:0;border:0;outline:0;background:transparent;padding:15px 0;font:700 25px/1.2 inherit;color:var(--ink)}
+.input-help{font-size:12px;color:var(--muted);margin:0 0 22px}
+.planner-input select{width:100%;padding:13px 14px;border:1px solid #cddbd0;border-radius:12px;background:#fff;font:inherit;color:var(--ink);margin-bottom:17px}
+.quick-amounts{display:flex;flex-wrap:wrap;gap:8px;margin-top:3px}
+.quick-amounts button{border:1px solid var(--line);background:#f8faf5;color:var(--green);border-radius:999px;padding:8px 12px;font:650 12px inherit;cursor:pointer}
+.quick-amounts button:hover,.quick-amounts button:focus{background:var(--green);border-color:var(--green);color:white}
+.planner-result{background:linear-gradient(145deg,#edf5e9,#fffdf8);display:flex;flex-direction:column;justify-content:center}
+.result-kicker{font-size:10px;font-weight:850;letter-spacing:1.8px;color:var(--green2);margin:0 0 8px}
+.result-amount{font-size:clamp(36px,4vw,52px);line-height:1.05;letter-spacing:-2px;font-weight:850;color:var(--green);margin-bottom:12px}
+.planner-result h3{font-size:23px;line-height:1.2;margin:0 0 9px}
+.planner-result>p:not(.result-kicker){color:var(--muted);margin:0;font-size:14px}
+.result-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}
+.result-stats>div{background:rgba(255,255,255,.85);border:1px solid #dce8d9;border-radius:14px;padding:14px}
+.result-stats span{display:block;font-weight:800;color:var(--green);font-size:16px}
+.result-stats small{display:block;color:var(--muted);font-size:11px;margin-top:4px}
+.benefit-box{margin-top:14px;padding:14px 15px;border:1px solid #dce8d9;background:rgba(255,255,255,.72);border-radius:14px}
+.benefit-box strong{font-size:12px;color:var(--green)}
+.benefit-box p{margin:5px 0 0;color:var(--muted);font-size:13px}
+.allocation{margin-top:20px}
+.allocation-head{display:flex;justify-content:space-between;font-size:12px;font-weight:750;margin-bottom:8px}
+.allocation-bar{display:flex;gap:3px;height:10px;border-radius:99px;overflow:hidden;background:#e9eee7}
+.allocation-bar span:nth-child(1){background:#27664f}.allocation-bar span:nth-child(2){background:#6b9a7c}.allocation-bar span:nth-child(3){background:#d4b45e}.allocation-bar span:nth-child(4){background:#6d91a0}.allocation-bar span:nth-child(5){background:#9b8bb8}
+.allocation-legend{display:flex;flex-wrap:wrap;gap:7px 13px;margin-top:9px;font-size:10px;color:var(--muted)}
+.allocation-legend span:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#27664f;margin-right:5px}
+.allocation-legend span:nth-child(2):before{background:#6b9a7c}.allocation-legend span:nth-child(3):before{background:#d4b45e}.allocation-legend span:nth-child(4):before{background:#6d91a0}.allocation-legend span:nth-child(5):before{background:#9b8bb8}
+.calculator-note{margin:14px 0 0;color:var(--muted);font-size:12px;line-height:1.6}
+.calculator-note strong{color:var(--ink)}
+@media(max-width:850px){.planner{grid-template-columns:1fr}.planner-result{min-height:300px}}
+@media(max-width:580px){.planner-input,.planner-result{padding:20px}.result-stats{grid-template-columns:1fr 1fr}.quick-amounts button{padding:8px 10px}}
+
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="mark">VS</span><span>Vidya Shakti Niwas</span></a>
+    <nav class="navlinks" aria-label="Page navigation">
+      <a href="#dashboard">Impact dashboard</a><a href="#scenarios">Contribution examples</a><a href="#activities">Activities</a><a class="back" href="index.html">← Back to website</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero">
+ <div class="wrap hero-grid">
+  <div>
+   <p class="eyebrow">From contribution to opportunity</p>
+   <h1>See how support can <em>change a learning journey.</em></h1>
+   <p class="lead">Explore illustrative examples of how learning materials, digital access, classroom equipment and community support can help create better learning conditions for children.</p>
+  </div>
+  <aside class="hero-art">
+   <div class="art-kicker">A SMALL CONTRIBUTION CAN SUPPORT A BIGGER OPPORTUNITY</div>
+   <div class="art-quote">Better resources.<br>More ways to learn.<br>Stronger possibilities.</div>
+   <div class="art-bottom"><span class="pill">Early education</span><span class="pill">Digital literacy</span><span class="pill">Learning spaces</span></div>
+  </aside>
+ </div>
+</section>
+<section class="section" id="dashboard">
+ <div class="wrap">
+  <div class="section-head"><div><p class="eyebrow">Interactive contribution planner</p><h2>What could your contribution make possible?</h2></div><p>Enter any amount and choose a focus area. The planner estimates the resources or activities that might be supported and explains how they could benefit students.</p></div>
+
+  <div class="planner">
+   <div class="planner-input">
+    <label for="amountInput">Your contribution amount (₹)</label>
+    <div class="amount-field"><span>₹</span><input id="amountInput" type="number" min="100" max="10000000" step="100" value="5000" inputmode="numeric" aria-describedby="amountHelp"></div>
+    <p id="amountHelp" class="input-help">Enter an amount from ₹100 to ₹1,00,00,000.</p>
+    <label for="focusSelect">What would you like to support?</label>
+    <select id="focusSelect">
+     <option value="balanced">Recommend a balanced mix</option>
+     <option value="early">Early learning materials</option>
+     <option value="digital">Digital literacy</option>
+     <option value="space">Classroom equipment</option>
+     <option value="community">Parent and community outreach</option>
+     <option value="teacher">Teacher resources</option>
+     <option value="creative">Creative learning activities</option>
+    </select>
+    <div class="quick-amounts" aria-label="Quick amount choices">
+     <button type="button" data-amount="500">₹500</button>
+     <button type="button" data-amount="1000">₹1,000</button>
+     <button type="button" data-amount="5000">₹5,000</button>
+     <button type="button" data-amount="10000">₹10,000</button>
+     <button type="button" data-amount="25000">₹25,000</button>
+    </div>
+   </div>
+   <div class="planner-result" aria-live="polite" aria-atomic="true">
+    <p class="result-kicker">YOUR CONTRIBUTION COULD SUPPORT</p>
+    <div class="result-amount" id="resultAmount">₹5,000</div>
+    <h3 id="resultTitle">Hands-on early learning</h3>
+    <p id="resultSummary">Learning kits with books, flashcards and counting aids could help teachers run more practical learning activities.</p>
+    <div class="result-stats">
+     <div><span id="resultOutput">About 6 kits</span><small>Illustrative output</small></div>
+     <div><span id="resultReach">Shared classroom use</span><small>Who or what it may support</small></div>
+    </div>
+    <div class="benefit-box"><strong>How this could help students</strong><p id="resultBenefit">Children may get more opportunities to practise foundational skills through guided activities.</p></div>
+    <div class="allocation" id="allocationWrap">
+     <div class="allocation-head"><span>Suggested allocation</span><span id="allocationTotal">100%</span></div>
+     <div class="allocation-bar" id="allocationBar"><span style="width:35%"></span><span style="width:25%"></span><span style="width:20%"></span><span style="width:10%"></span><span style="width:10%"></span></div>
+     <div class="allocation-legend" id="allocationLegend"><span>Early learning</span><span>Digital</span><span>Classroom</span><span>Community</span><span>Creative</span></div>
+    </div>
+   </div>
+  </div>
+  </div>
+</section>
+
+<section class="section" id="scenarios">
+ <div class="wrap">
+  <div class="section-head"><div><p class="eyebrow">Choose a contribution pathway</p><h2>Ways your support could help</h2></div></div>
+  <div class="cards">
+   <article class="scenario"><div class="scenario-top"><span class="tag">01 · Learning materials</span><h3>More hands-on early learning</h3><p>Sample planning cost: ₹800 per learning kit</p></div><div class="scenario-body"><p><strong>Could support:</strong> picture books, pencils, counting aids, flashcards and shared classroom activity kits.</p><p><strong>Potential benefit:</strong> More opportunities to practise language, numbers and foundational concepts through guided activities.</p></div></article>
+   <article class="scenario"><div class="scenario-top"><span class="tag">02 · Digital literacy</span><h3>More practice with computers</h3><p>Sample planning cost: ₹1,500 per device service pack</p></div><div class="scenario-body"><p><strong>Could support:</strong> keyboard or mouse replacements, headphones, offline learning content or basic maintenance.</p><p><strong>Potential benefit:</strong> More functional practice opportunities for typing, basic computer use and digital learning tasks.</p></div></article>
+   <article class="scenario"><div class="scenario-top"><span class="tag">03 · Classroom space</span><h3>A more usable classroom</h3><p>Sample planning cost: ₹2,500 per equipment unit</p></div><div class="scenario-body"><p><strong>Could support:</strong> benches, mats, storage, lighting improvements or essential classroom equipment.</p><p><strong>Potential benefit:</strong> Address a specific classroom barrier identified by teachers and management.</p></div></article>
+   <article class="scenario"><div class="scenario-top"><span class="tag">04 · Community engagement</span><h3>Help families learn about programmes</h3><p>Sample planning cost: ₹2,500 per outreach activity</p></div><div class="scenario-body"><p><strong>Could support:</strong> parent meetings, printed programme information and local outreach.</p><p><strong>Potential benefit:</strong> Families can better understand available learning programmes and how to enquire or enrol.</p></div></article>
+   <article class="scenario"><div class="scenario-top"><span class="tag">05 · Teacher support</span><h3>More structured classroom activities</h3><p>Sample planning cost: ₹3,000 per resource set</p></div><div class="scenario-body"><p><strong>Could support:</strong> lesson-planning resources, teaching aids, activity templates or skills-sharing materials.</p><p><strong>Potential benefit:</strong> Help teachers prepare repeatable activities matched to students' learning levels.</p></div></article>
+   <article class="scenario"><div class="scenario-top"><span class="tag">06 · Creative learning</span><h3>More room to create and collaborate</h3><p>Sample planning cost: ₹1,000 per activity kit</p></div><div class="scenario-body"><p><strong>Could support:</strong> art supplies, sports equipment, music materials or group-project resources.</p><p><strong>Potential benefit:</strong> More structured opportunities for creativity, teamwork and self-expression.</p></div></article>
+  </div>
+ </div>
+</section>
+<section class="section" id="activities">
+ <div class="wrap">
+  <div class="section-head"><div><p class="eyebrow">Beyond supplies</p><h2>Contributions can take different forms</h2></div></div>
+  <div class="activity-grid">
+   <article class="activity"><h3>💚 Financial contributions</h3><p>Allocate an approved budget to a clearly defined need.</p><ul><li>Books, stationery and learning kits</li><li>Computer maintenance and digital resources</li><li>Benches and basic classroom equipment</li></ul></article>
+   <article class="activity"><h3>🧰 In-kind resources</h3><p>Provide useful goods or services after confirming suitability.</p><ul><li>Working computers and accessories</li><li>Age-appropriate books and teaching aids</li><li>Repairs, printing or connectivity support</li></ul></article>
+   <article class="activity"><h3>👩‍🏫 Time and expertise</h3><p>Contribute skills in coordination with the organisation.</p><ul><li>Digital-skills sessions</li><li>Teacher resource preparation</li><li>Career exposure and activity workshops</li></ul></article>
+   <article class="activity"><h3>🤝 Community partnerships</h3><p>Help strengthen the connection between families and learning programmes.</p><ul><li>Parent information meetings</li><li>Local awareness activities</li><li>Volunteering and programme referrals</li></ul></article>
+  </div>
+ </div>
+</section>
+<section class="section">
+ <div class="wrap">
+  <div class="section-head"><div><p class="eyebrow">Responsible impact tracking</p><h2>From support to evidence</h2></div></div>
+  <div class="steps">
+   <article class="step"><h3>Confirm the need</h3><p>Discuss priorities with educators and management before accepting or allocating resources.</p></article>
+   <article class="step"><h3>Record the input</h3><p>Document approved resources, costs, dates and intended activity.</p></article>
+   <article class="step"><h3>Track the output</h3><p>Record what was delivered or conducted, such as kits distributed or sessions held.</p></article>
+   <article class="step"><h3>Review the outcome</h3><p>Use attendance, teacher feedback and suitable learning checks; report limitations honestly.</p></article>
+  </div>
+ </div>
+</section>
+<section class="section">
+ <div class="wrap">
+  <div class="cta"><div><h2>Want to support a learning priority?</h2><p>Talk with Vidya Shakti Niwas about current needs, suitable contributions and how activities can be documented. No donation is collected on this page.</p></div><a href="index.html#contact">Contact the organisation ↗</a></div>
+ </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap footline"><span>© <span id="year"></span> Vidya Shakti Niwas</span><span>Scenario dashboard · Sample figures are illustrative, not verified impact data.</span></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const amountInput = document.getElementById('amountInput');
+const focusSelect = document.getElementById('focusSelect');
+const resultAmount = document.getElementById('resultAmount');
+const resultTitle = document.getElementById('resultTitle');
+const resultSummary = document.getElementById('resultSummary');
+const resultOutput = document.getElementById('resultOutput');
+const resultReach = document.getElementById('resultReach');
+const resultBenefit = document.getElementById('resultBenefit');
+const allocationWrap = document.getElementById('allocationWrap');
+const allocationBar = document.getElementById('allocationBar');
+const allocationLegend = document.getElementById('allocationLegend');
+
+const money = n => new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(n);
+const formatNum = n => new Intl.NumberFormat('en-IN',{maximumFractionDigits:1}).format(n);
+
+const pathways = {
+ early:{title:'Hands-on early learning',unitCost:800,unit:'learning kits',summary:'Learning kits with books, flashcards and counting aids could help teachers run more practical activities.',reach:'Shared classroom use',output:n=>`About ${Math.floor(n)} learning kit${Math.floor(n)===1?'':'s'}`,benefit:'Children get more opportunities to practise early language, counting and foundational concepts through guided activities.'},
+ digital:{title:'More digital practice',unitCost:1500,unit:'device service packs',summary:'Basic maintenance, accessories or offline learning resources could help keep computers useful for lessons.',reach:'Computer learners',output:n=>`About ${Math.floor(n)} device service pack${Math.floor(n)===1?'':'s'}`,benefit:'More functional practice time may help learners build familiarity with typing and basic computer tasks.'},
+ space:{title:'A more usable classroom',unitCost:2500,unit:'equipment units',summary:'Support could go towards a priority item such as seating, storage, mats or essential classroom equipment.',reach:'Classroom environment',output:n=>`Budget for about ${Math.floor(n)} item unit${Math.floor(n)===1?'':'s'}`,benefit:'Addressing a verified equipment gap can make the learning space more practical and comfortable.'},
+ community:{title:'Family and community outreach',unitCost:2500,unit:'outreach activities',summary:'Parent meetings, printed information and local outreach could help families understand the programmes available.',reach:'Families and caregivers',output:n=>`About ${Math.floor(n)} outreach activit${Math.floor(n)===1?'y':'ies'}`,benefit:'Clear information can help families learn how to enquire about programmes and support a child’s participation.'},
+ teacher:{title:'Teacher resource support',unitCost:3000,unit:'resource sets',summary:'Teaching aids, activity templates and lesson-planning resources could help educators prepare structured sessions.',reach:'Teachers and classrooms',output:n=>`About ${Math.floor(n)} resource set${Math.floor(n)===1?'':'s'}`,benefit:'Reusable resources may help teachers plan activities that are more consistent and matched to learning levels.'},
+ creative:{title:'Creative learning activities',unitCost:1000,unit:'activity kits',summary:'Art supplies, sports materials, music resources or group-project materials could support creative sessions.',reach:'Group activities',output:n=>`About ${Math.floor(n)} activity kit${Math.floor(n)===1?'':'s'}`,benefit:'Structured creative activities can offer opportunities to practise collaboration, expression and teamwork.'}
+};
+const mix = [
+ {key:'early',label:'Early learning',share:.35},
+ {key:'digital',label:'Digital',share:.25},
+ {key:'space',label:'Classroom',share:.20},
+ {key:'community',label:'Community',share:.10},
+ {key:'creative',label:'Creative',share:.10}
+];
+
+function renderPlan(){
+ let amount = Number(amountInput.value);
+ if(!Number.isFinite(amount) || amount < 100) amount = 100;
+ amount = Math.min(amount,10000000);
+ const selected = focusSelect.value;
+ resultAmount.textContent = money(amount);
+
+ if(selected === 'balanced'){
+   resultTitle.textContent = 'A balanced contribution mix';
+   resultSummary.textContent = 'A suggested split across learning materials, digital access, classroom needs, community outreach and creative activities. The allocation can be changed to match the organisation’s approved priorities.';
+   const alloc = mix.map(item => ({...item,amount:Math.floor(amount*item.share)}));
+   const totalAllocated = alloc.reduce((sum,item)=>sum+item.amount,0);
+   alloc[0].amount += amount-totalAllocated;
+   const units = alloc.map(item=>`${item.label}: ${money(item.amount)} (about ${Math.floor(item.amount/pathways[item.key].unitCost)} ${pathways[item.key].unit})`);
+   resultOutput.textContent = units.map(x=>x.split(' (')[1]?.replace(')','')).join(' · ');
+   resultOutput.textContent = alloc.map(item=>`${Math.floor(item.amount/pathways[item.key].unitCost)} ${pathways[item.key].unit}`).join(' + ');
+   resultReach.textContent = 'Several learning needs';
+   resultBenefit.textContent = 'A balanced mix may support different parts of the learning environment, but the actual benefit depends on current priorities, local costs and how the resources are used.';
+   allocationWrap.classList.remove('hidden');
+   allocationBar.innerHTML = alloc.map(item=>`<span style="width:${item.share*100}%"></span>`).join('');
+   allocationLegend.innerHTML = alloc.map(item=>`<span>${item.label} ${Math.round(item.share*100)}%</span>`).join('');
+   allocationLegend.querySelectorAll('span').forEach((el,i)=>el.style.setProperty('--legend-index',i));
+ } else {
+   const p = pathways[selected];
+   const count = amount/p.unitCost;
+   resultTitle.textContent = p.title;
+   resultSummary.textContent = p.summary;
+   resultOutput.textContent = count < 1 ? `Partial funding towards 1 ${p.unit.replace(/s$/,'')}` : p.output(count);
+   resultReach.textContent = p.reach;
+   resultBenefit.textContent = p.benefit;
+   allocationWrap.classList.add('hidden');
+ }
+}
+amountInput.addEventListener('input',renderPlan);
+focusSelect.addEventListener('change',renderPlan);
+document.querySelectorAll('[data-amount]').forEach(button=>button.addEventListener('click',()=>{amountInput.value=button.dataset.amount;renderPlan();}));
+renderPlan();
+</script>
+</body>
+</html>

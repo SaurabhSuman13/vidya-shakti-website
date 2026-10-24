@@ -27,3 +27,23 @@ VISUAL UPDATE — SUPPORTERS & LATEST UPDATES
 - Tablet and mobile layouts collapse to two columns and then one column.
 - index.html references style.css?v=20261023-cards to request the updated stylesheet after deployment.
 - Keep the assets/ folder when uploading; image paths point to the bundled filenames.
+
+
+NEW: CONTRIBUTION IMPACT DASHBOARD
+----------------------------------
+A new page, impact-dashboard.html, has been added. The Our Supporters section in index.html now includes the button "See how contribution makes changes" linking to this page.
+
+Run locally in VS Code:
+1. Extract this ZIP file.
+2. Open the extracted vsn_contact_edit folder in VS Code.
+3. Right-click index.html and choose Open with Live Server.
+4. Click the new contribution dashboard button in the Our Supporters section.
+5. Keep impact-dashboard.html in the same folder as index.html.
+
+The dashboard uses illustrative fictional contribution budgets and targets. They are clearly labelled as scenarios and must not be presented as verified impact results. Verify the organisation's real figures before publishing.
+
+
+INTERACTIVE CONTRIBUTION DASHBOARD
+- Open impact-dashboard.html through VS Code Live Server.
+- Enter any contribution amount and choose a focus area to see estimated resources or activities.
+- All unit costs and impacts are illustrative planning assumptions, not verified prices or guaranteed outcomes. Replace with approved local costs before publishing as factual impact data.
